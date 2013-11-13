@@ -1,0 +1,23 @@
+{
+  "name": "grunt-bower-task_Demo",
+  "version": "0.0.0",
+  "authors": [
+    "kyohei8 <tsukuda.kyouhei@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.0",
+    "angular-mocks": "~1.2.0",
+    "jquery": "~2.0.3",
+    "jquery.masonry": "~3.1.0",
+    "underscore": "1.5.2",
+    "bootstrap": "~3.0.2"
+  }
+}
