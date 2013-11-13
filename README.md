@@ -14,5 +14,5 @@ To install `grunt-cli`(global), `grunt`, `grunt-bower-task`.
 $ grunt bower:install
 ```
 
-component files are installed under the lib directory
+component files are installed under the `lib` directory
 
