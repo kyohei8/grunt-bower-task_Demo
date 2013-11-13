@@ -6,19 +6,15 @@ module.exports = function (grunt) {
       install: {
         options: {
           targetDir     : './lib',
-          layout:'byType',
-          /*
-          layout        : function (type, component) {
-            //targetDir以下に個別のフォルダを作らず、jsとcssのフォルダだけ管理する
-            // css以外はすべてjsと判定する
-            // 細かい部分はbower.jsonのexportsOverrideで制御する
-            if (type === 'css') {
-              return 'stylesheets';
-            } else {
-              return 'javascripts';
-            }
-          },
-          */
+          layout: 'byType',
+          //layout: 'byComponent',
+          //layout        : function (type, component) {
+          //  if (type === 'css') {
+          //    return 'css';
+          //  } else {
+          //    return 'js';
+          //  }
+          //},
           install       : true,
           verbose       : false,
           cleanTargetDir: true,
