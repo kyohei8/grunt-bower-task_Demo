@@ -1,5 +1,7 @@
 This is grunt-bower-task Demo project.
 
+(こちら)[http://kyohei8.hatenablog.com/entry/2013/11/17/145316]の記事用に作りました
+
 ## installation
 
 ```
